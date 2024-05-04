@@ -1,38 +1,98 @@
-.App {
+@import "./fonts.css";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  border: none;
+}
+.header {
+  max-width: 100%;
+  font-family: "Poppins", sans-serif;
+  height: 82px;
+  box-shadow:  2px 2px 2px black ;
+}
+.header__container {
+    margin: 0 auto;
+    max-width: 1340px;
+    background-color: white;
+    padding: 20px 0;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.text-logo {
+  font-weight: 700;
+  font-size: 28px;
+  color: #22262a;
+}
+.header__menu {
+  margin-top: 7px;
+}
+.link {
+  font-weight: 400;
+  font-size: 18px;
+  padding-left: 20px;
+  color: #22262a;
+}
+.header__img {
+  background-image:url(./log.jpg);
+  width: 150px;
+  height: 20px;
+  background-repeat: no-repeat;
+}
+.hero {
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  background: url(./hero-img.jpg);
+  max-width: 1520px;
+  height: 745px;
+}
+.description {
+   position: fixed;
+   bottom: 135px;
+   right: 380px;
+}
+.trend {
+  margin-left: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #22262a;
+}
+.title {
+  font-weight: 700;
+  font-size: 80px;
+  color: #22262a;
+}
+.selection-cloth {
+  font-weight: 600;
+  font-size: 18px;
+  color: #22262a;
+  margin-left: 10px;
+}
+.shop {
+  margin: 10px;
+  width: 147px;
+  height: 35px;
+  background: #22262a;
+  font-weight: 500;
+  font-size: 18px;
   text-align: center;
+  color: #fff;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.shop-2 {
+  margin: 10px;
+  width: 147px;
+  height: 35px;
+  background: #22262a;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
 }
