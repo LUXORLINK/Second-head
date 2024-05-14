@@ -38,10 +38,15 @@
   margin-top: 7px; 
   }
   .link {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 18px;
   padding-left: 20px;
   color: #22262a;
+
+  }
+  .link.active {
+    color:blue;
+    transition: 0.6s;
   }
   .header__img {
   background-image:url(./log.jpg);
@@ -166,4 +171,46 @@
     font-weight: 400;
     font-size: 15px;
     color: #cf2929;
+  }
+
+  .imgs1 {    
+    background: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 300px;
+  }
+  .imgs2 {    
+    background: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1010px;
+    margin-left: 300px;
+   }
+  .imgs3 {    
+    background: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 240px;
+
+  }
+  .imgs4 {    
+    background: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 300px;
+
+  }
+  .imgs5 {    
+    background: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: 160px;
+
+  }
+  .imgs6 {    
+    background: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 960px;
+    margin-left: 300px;
   }
