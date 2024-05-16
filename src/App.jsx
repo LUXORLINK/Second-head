@@ -8,7 +8,6 @@ import Lookbook from './pages/Lookbook'
 import Features from './pages/Features'
 import Pages from './pages/Pages'
 import Blog from './pages/Blog'
-import logo from './pages/Logo'
 import './App.css'
 
 
@@ -21,7 +20,7 @@ const App = () => {
 
          <Routes>
          <Route path='/' element={<> <logo/>, <Hero/>, <Products/> </>} />
-          <Route path='/Home' element={<Home/>} />
+          <Route path='/Home' element={<><Hero/>, <Products/></>} />
           <Route path='/SHOP' element={<Shop/>} />
           <Route path='/LOOKBOOK' element={<Lookbook/>} />
           <Route path='/FEATURES' element={<Features/>} />
