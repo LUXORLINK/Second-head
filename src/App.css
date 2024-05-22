@@ -191,6 +191,7 @@
     background-position: center;
     background-size: cover;
     margin-left: 240px;
+   
 
   }
   .imgs4 {    
@@ -214,3 +215,16 @@
     width: 960px;
     margin-left: 300px;
   }
+
+  .sign-in {
+    transform: translate( 410% );
+  }
+.registr {
+  transform: translate( 550% );
+}
+.LookBook-logo {
+  margin-left: 640px; 
+}
+.Timer {
+  margin-left: 660px;
+}
