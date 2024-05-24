@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
-import img3 from '../assets/images/brixton-lookbook.webp';
+import React, { useState } from 'react'
+import img3 from '../assets/images/brixton-lookbook.webp'
 
-import Timer from './Timer';
-import RegistrationForm from './Registration';
+import Timer from './Timer'
+import RegistrationForm from './Registration'
 
 export const Lookbook = () => {
     const [resetFlag, setResetFlag] = useState(false);
 
     const handleRegister = () => {
-        setResetFlag(true);
-        setTimeout(() => setResetFlag(false), 0); // Сброс флага после того как таймер сброшен
-    };
+        setResetFlag(true)
+        setTimeout(() => setResetFlag(false), 0)
+    }
 
     return (
         <>
@@ -19,7 +19,7 @@ export const Lookbook = () => {
             <Timer resetFlag={resetFlag} />
             <img src={img3} alt="Lookbook Image" className='imgs3' />
         </>
-    );
-};
+    )
+}
 
-export default Lookbook;
+export default Lookbook
